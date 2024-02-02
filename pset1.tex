@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+    \section*{1.3.4}
+        \begin{gather*}
+            A+A=A \\
+            B+B=A \\
+            A+B=B \\
+            B+A=B \\
+            A \cdot A=A \\
+            A \cdot B=A \\
+            B \cdot A=A \\
+            B \cdot B=B
+        \end{gather*}
+
+        \subsection*{A1}
+        For any \( a, b \in \mathbb{R} \), there is a number \( a + b \in \mathbb{R} \) and \( a + b = b + a \).
+        
+        \begin{proof}
+            
+        \end{proof}
+
+    \section*{1.4.1}
+        Using just the axioms, prove that $ad+bc<ac+bd$ if $a<b$ and $c<d$.
+
+        \begin{proof}\mbox{}\\
+            On the right-hand side of the equation, $a$ is multiplied by $c$
+            instead of $d$. $ac<ad$ because $c<d$. So far, it's not looking promising for the
+            right hand side of the equation.
+            
+            $b$, however, is multiplied by $d$ on the right-hand side of the equation, and
+            $bd>bc$ because $d>c$.
+
+            $ad+bc<ac+bd$ \\
+            $ad-ac<bd-bc$ \\
+            $a(d-c)<b(d-c)$ \\
+            Since $a<b$, this is true by O4 (For any $a,b \in \mathbb{R}$ if $a<b$, then $ac<bc$.)
+        \end{proof}
+        
+\end{document}
